@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支援我們 - LearnGarden</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script 
+      src="https://www.paypal.com/sdk/js?client-id=BAA4TcWC_dZ-vsV1sorehWIUzBBA4RRjUH0FKQ9KuE4r0rs8RwcnbmlRvIBAfCIryeQa6-lk1QDPhDlqys&components=hosted-buttons&disable-funding=venmo&currency=USD">
+    </script>
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <h2>LearnGarden</h2>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">返回首頁</a>
+                <a href="index.html#projects" class="nav-link">作品集</a>
+                <a href="index.html#about" class="nav-link">關於我們</a>
+                <a href="index.html#contact" class="nav-link">聯繫我們</a>
+                <a href="#" class="nav-link active">支援我們</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 支援頁面主要內容 -->
+    <section class="support-hero">
+        <div class="container">
+            <div class="support-content">
+                <div class="support-header">
+                    <i class="fas fa-heart support-icon"></i>
+                    <h1>支援LearnGarden</h1>
+                    <p>您的支持讓我們能夠繼續開發更多優質的學習工具和創新解決方案</p>
+                </div>
+
+                <div class="support-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-rocket"></i>
+                        <h3>推動創新</h3>
+                        <p>幫助我們開發更多創新的教育科技解決方案</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-code"></i>
+                        <h3>持續開發</h3>
+                        <p>讓我們能夠投入更多時間改進現有產品</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-users"></i>
+                        <h3>服務社群</h3>
+                        <p>為更多學習者提供免費優質的學習資源</p>
+                    </div>
+                </div>
+
+                <!-- PayPal 捐款區域 -->
+                <div class="donation-section">
+                    <h2>選擇支援方式</h2>
+                    <p>任何金額的支持都對我們意義重大</p>
+                    
+                    <div class="paypal-container">
+                        <div id="paypal-container-9FN82YKF9NEFL"></div>
+                    </div>
+
+                    <div class="donation-info">
+                        <div class="info-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>安全加密付款</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-globe"></i>
+                            <span>支援多種貨幣</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-receipt"></i>
+                            <span>自動收據發送</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 其他支援方式 -->
+                <div class="other-support">
+                    <h3>其他支援我們的方式</h3>
+                    <div class="support-options">
+                        <div class="support-option">
+                            <i class="fas fa-share-alt"></i>
+                            <h4>分享我們的作品</h4>
+                            <p>向朋友推薦我們的項目</p>
+                        </div>
+                        <div class="support-option">
+                            <i class="fas fa-star"></i>
+                            <h4>留下評價</h4>
+                            <p>在GitHub或其他平台給我們星星</p>
+                        </div>
+                        <div class="support-option">
+                            <i class="fas fa-envelope"></i>
+                            <h4>提供反饋</h4>
+                            <p>告訴我們您的使用體驗和建議</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 回到首頁按鈕 -->
+                <div class="back-to-home">
+                    <a href="index.html" class="btn btn-primary">
+                        <i class="fas fa-arrow-left"></i>
+                        返回首頁
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>LearnGarden</h3>
+                    <p>創新數位解決方案</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">首頁</a>
+                    <a href="index.html#projects">作品集</a>
+                    <a href="index.html#about">關於我們</a>
+                    <a href="index.html#contact">聯繫我們</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LearnGarden. 版權所有。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // PayPal 按鈕初始化
+        paypal.HostedButtons({
+            hostedButtonId: "9FN82YKF9NEFL",
+        }).render("#paypal-container-9FN82YKF9NEFL");
+
+        // 導航功能（簡化版）
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // 滾動效果
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            } else {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html> 
