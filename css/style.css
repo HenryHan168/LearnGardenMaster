@@ -462,6 +462,18 @@ body {
     color: var(--text-light);
 }
 
+.contact-item a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: var(--transition);
+    display: inline-block;
+}
+
+.contact-item a:hover {
+    color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
 /* 頁腳 */
 .footer {
     background: linear-gradient(135deg, #2c3e50, #34495e);
