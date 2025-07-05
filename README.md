@@ -166,6 +166,27 @@ projectManager.addProject({
 3. **表單處理**：聯繫表單後端
 4. **CMS整合**：內容管理系統
 
+## 🎯 當前作品集
+
+### 1. LearnGarden 學習花園
+- **類型**：教育平台
+- **技術**：HTML, CSS, JavaScript, 響應式設計
+- **特色**：個人化學習體驗、進度追蹤、現代化UI
+- **狀態**：精選作品
+
+### 2. watchHR - 專業心率監測
+- **類型**：健康應用
+- **技術**：SwiftUI, HealthKit, Apple Watch, iOS開發
+- **特色**：
+  - 實時心率追蹤
+  - 5個心率區間分析
+  - 三級警報系統
+  - 10種語言支援
+  - 本地數據存儲
+  - 符合Apple隱私標準
+- **狀態**：精選作品
+- **展示頁面**：[watchHR 官網](https://henryhan168.github.io/watchHRhtml/)
+
 ## 🐛 故障排除
 
 ### 常見問題

@@ -10,10 +10,21 @@ const projects = [
         githubUrl: "#",
         featured: true,
         category: "教育平台"
+    },
+    {
+        id: 2,
+        title: "watchHR - 專業心率監測",
+        description: "專為 Apple Watch 設計的專業級心率監測應用，提供實時心率追蹤、5個心率區間分析、三級警報系統和10種語言支援。採用 SwiftUI 和 HealthKit 開發，確保數據隱私和本地存儲。",
+        tags: ["SwiftUI", "HealthKit", "Apple Watch", "iOS開發", "心率監測", "健康應用"],
+        icon: "fas fa-heartbeat",
+        liveUrl: "https://henryhan168.github.io/watchHRhtml/",
+        githubUrl: "#",
+        featured: true,
+        category: "健康應用"
     }
     // 未來可以在這裡添加更多項目
     // {
-    //     id: 2,
+    //     id: 3,
     //     title: "新項目名稱",
     //     description: "項目描述...",
     //     tags: ["技術標籤"],
